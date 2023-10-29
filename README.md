@@ -10,7 +10,6 @@ Incorporates multiple clock speeds, controllers, memory, data structures, graphi
 ~ LUT Utilization: 3.18%
 
 General Project Structure:
-1. Keyboard receives data in the order of A Operation B, where Operation can be +,-,*,MOD3.
-  a. While a proper sequence is in progress, the numbers/operation are displayed on the Video Graphics Array.
+1. Keyboard receives data in the order of A Operation B, where Operation can be +,-,*,MOD3. While a proper sequence is in progress, the numbers/operation are displayed on the Video Graphics Array.
 2. This information is added to the RAM using a stack (FIFO) approach.
 3. When the keyboard's ENTER button is pressed, the most recent A Operation B sequence is displayed on the Video Graphics Array along with the solution.
