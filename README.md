@@ -8,6 +8,7 @@ Incorporates multiple clock speeds, controllers, memory, data structures, graphi
 ~ FPGA Board: Xilinx XC7A100TCSG
 ~ Worst-Case Propagation Delay: 4.5ns on a 100 MHz system clock.
 ~ LUT Utilization: 3.18%
+~ Written in Verilog. Vivado-Provided RAM IP is written in VHDL.
 
 General Project Structure:
 1. Keyboard receives data in the order of A Operation B, where Operation can be +,-,*,MOD3. While a proper sequence is in progress, the numbers/operation are displayed on the Video Graphics Array.
