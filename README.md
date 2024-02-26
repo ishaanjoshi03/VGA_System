@@ -5,7 +5,7 @@ Incorporates multiple clock speeds, controllers, memory, data structures, graphi
 
 ~ Each file that was used in the final implementation has a small description at its top. 
 
-~ Modules were tested individually through test benches and syntheses and then slowly integrated.
+~ Modules were tested individually through test benches and syntheses and then integrated.
 
 ~ FPGA Board: Xilinx XC7A100TCSG
 
